@@ -8,11 +8,12 @@
 </head>
 
 <body>
-<h1>CognitiveServiceを使うサイト</h1>
+<h1>CognitiveServiceを使うサイト(Sentiment)</h1>
 
-<h3>調べたい文字列を教えてください</h3>
-<form method="POST" action="./result">
+<h3>センチメントを表示したい文字列を入力してください</h3>
+<form method="POST" action="./resultSentiment">
 <input type="TEXT" name="string" />
 <input type="submit" />
 </form>
 </body>
+</html>
